@@ -18,8 +18,10 @@ map({ "n", "x" }, "gt", "gg", { desc = "Go to Top of Butter" })
 map({ "n", "x" }, "gb", "G", { desc = "Go to Bottom of Buffer" })
 map({ "n", "x" }, "gh", "_", { desc = "Go to Head of line" })
 map({ "n", "x" }, "gl", "$", { desc = "Go to Last of line" })
-map({ "n", "x" }, "gj", "L", { desc = "Go to Bottom of Vision Scope" })
-map({ "n", "x" }, "gk", "H", { desc = "Go to Top of Vision Scope" })
+map({ "n", "x", "v" }, "<S-h>", "^")
+map({ "n", "x", "v" }, "<S-l>", "$")
+-- map({ "n", "x" }, "gj", "L", { desc = "Go to Bottom of Vision Scope" })
+-- map({ "n", "x" }, "gk", "H", { desc = "Go to Top of Vision Scope" })
 
 map("n", "<C-a>", "gg<S-v>G", { desc = "Select all" })
 

@@ -1,7 +1,8 @@
 return {
   {
     "folke/tokyonight.nvim",
-    enabled = false,
+    enabled = true,
+    opts = { style = "moon" },
   },
   {
     "catppuccin/nvim",
@@ -18,10 +19,11 @@ return {
       })
     end,
   },
+  { "ellisonleao/gruvbox.nvim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "tokyonight",
     },
   },
 }
